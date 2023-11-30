@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <title>Comparison</title>
+  <link rel="stylesheet" href="navbar.css" />
+  <style>
+    body {
+      background-color: black;
+    }
+    .TB {
+      border-collapse: collapse;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      height: 80vh;
+      margin-top: 60px;
+    }
+    table {
+      border: 10px solid white;
+      width: 60%;
+    }
+    th {
+      text-align: center;
+      padding: 8px;
+      border: 1px solid #dddddd;
+      font-size: 20px;
+    }
+    td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    .FontT {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    #H {
+      font-size: 40px;
+      color: burlywood;
+      padding-bottom: 50px;
+    }
+  </style>
+  <body>
+    <nav class="mylist">
+      <ul>
+        <li>
+          <a class="items" href="index.html">Global City</a>
+        </li>
+        <li><a class="items" href="Amsterdam.html">Amsterdam</a></li>
+        <li><a class="items" href="Beijing.html">Beijing</a></li>
+        <li><a class="items" href="London.html">London</a></li>
+        <li><a class="items" href="Rome.htm">Roma</a></li>
+        <li><a class="items" href="Tokyo.htm">Tokyo</a></li>
+        <li>
+          <a class="items" id="ActivePage" href="Comparison.html">Comparison</a>
+        </li>
+        <li><a class="items" href="Contact.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="TB">
+      <table style="background-color: white">
+        <caption id="H">
+          Comparison between the capitals cities
+        </caption>
+        <tr>
+          <th style="width: 20%">Cities</th>
+          <th>Population</th>
+          <th>Economy</th>
+          <th>Cityscape</th>
+        </tr>
+        <tr>
+          <td class="FontT">Beojing</td>
+          <td>21,766,000</td>
+          <td>GDP: $618.6 billion (nominal) – Growth Increase 0.7%</td>
+          <td>16,410.54 square km</td>
+        </tr>
+        <tr>
+          <td class="FontT">Amsterdam</td>
+          <td>1,174,000</td>
+          <td>GDP: $180.2 billion (nominal) – Growth Increase 0.9%</td>
+          <td>219.3 square km</td>
+        </tr>
+        <tr>
+          <td class="FontT">London</td>
+          <td>8,799,800</td>
+          <td>GDP: $481.2 billion (nominal) – Growth Increase 1.9%</td>
+          <td>1,572 square km</td>
+        </tr>
+        <tr>
+          <td class="FontT">Rome</td>
+          <td>4,471,094</td>
+          <td>GDP: $121.5 billion (nominal) – Growth Increase 0.4%</td>
+          <td>1,285 square km</td>
+        </tr>
+        <tr>
+          <td class="FontT">Tokyo</td>
+          <td>37,194,105</td>
+          <td>GDP: $371.6 billion (nominal) – Growth Increase 1.3%</td>
+          <td>2,194 square km</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
